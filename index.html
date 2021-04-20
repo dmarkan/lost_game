@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lost</title>
+</head>
+
+<body>
+    <div id="beginning">
+        <img id="beginning_img" src="images/beginning.jpg" alt="beginning">
+        <h1>Lost</h1>
+        <button id="button">Play</button>
+    </div>
+    <div id="ending">
+        <img id="ending_img" src="images/ending.jpg" alt="ending">
+       <p>Wake up John, you survived a terrible car accident, you are lucky to be alive! How do you feel?
+       </p>
+       <p>to be continued...</p>
+       <p>Created and written by Darko Markan</p>
+    </div>
+    <div><img id="img" src="images/start.jpg" alt="start">
+    <p id="enemy">Enemy health: 3</p></div>
+    <div id="label">
+        <p id="story">You woke up in the woods feeling dizzy, what happened?</p>
+        <input id="labela" type="text" placeholder="If you don't know what to type, try to type: help" onchange="text()">
+    </div>
+    <div id="stats">
+        <ul>
+            <li id="at">Attack: 1</li>
+            <li id="hp">Health: 10</li>
+            <li id="ac">Armor: 0</li>
+        </ul>
+    </div>
+    <div id="inv">
+        <p>Inventory:</p>
+        <img id="stick" src="images/stick.png" alt="stick">
+        <img id="shirt" src="images/shirt.png" alt="shirt">
+        <img id="key" src="images/key.png" alt="key">
+        <img id="bandages" src="images/bandages.png" alt="bandages">
+        <img id="boots" src="images/boots.png" alt="boots">
+        <img id="hook" src="images/hook.png" alt="hook">
+        <img id="carkeys" src="images/carkeys.png" alt="carkeys">
+    </div>
+    <div id="map">
+        <p>Map:</p>
+        <img id="map1" src="images/map1.png" alt="map1">
+        <img id="map2" src="images/map2.png" alt="map2">
+        <img id="map3" src="images/map3.png" alt="map3">
+        <img id="map4" src="images/map4.png" alt="map4">
+        <img id="map5" src="images/map5.png" alt="map5">
+        <div id="up"></div>
+        <div id="down"></div>
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+    <embed src="music/song.mp3" autostart="true" loop="true" width="2" height="0">
+    </embed>
+  </body>
+    <script src="main.js"></script>
+</body>
+
+</html>
